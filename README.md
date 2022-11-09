@@ -1,4 +1,4 @@
-# Candy Card Block
+# Candy Card Gutenberg Block
 
 Sample candy card block.
 
