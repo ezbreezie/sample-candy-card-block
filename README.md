@@ -9,8 +9,8 @@ This is a custom Gutenberg "candy" card block that displays a card item with an 
 
 ## Installation
 
-1. Ideally, Step 1 will be installing and activating the [candyshop-fse](https://github.com/ezbreezie/candyshop-block-theme) theme and importing the corresponding candyshop-fse database/uploads (which are both quite small). 
-2. Upload the plugin files to the `/wp-content/plugins/candy-card-block` directory, or install the plugin through the WordPress plugins screen directly.
+1. To view a quick pre-built sample, please also install and activate the [candyshop-fse-theme](https://github.com/ezbreezie/candyshop-block-theme) theme with the corresponding database and uploads.
+2. Upload the plugin files to the `/wp-content/plugins/` directory, or install the plugin through the WordPress plugins screen directly.
 3. Activate the plugin through the 'Plugins' screen in WordPress
 
 ## What you should see
