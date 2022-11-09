@@ -1,0 +1,65 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yeseva+One&display=swap);
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/*
+ * Candy Card Styles
+ */
+/*
+ * Import Google fonts
+ */
+.candy-card {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px 25px;
+  border: 3px dashed #CCCCCC;
+  box-shadow: 2px 2px 10px #DDDDDD;
+  position: relative;
+  height: calc(100% - 25px);
+  position: relative;
+  transition: 0.2s all ease-in-out;
+  font-family: "Roboto", sans-serif;
+}
+@media only screen and (max-width: 781px) {
+  .candy-card {
+    box-sizing: border-box;
+    max-width: 525px;
+    margin: 50px auto 0;
+  }
+}
+.candy-card:hover, .candy-card:active, .candy-card:focus {
+  border-color: #FFCCCC;
+}
+.candy-card:hover .candy-card-image, .candy-card:active .candy-card-image, .candy-card:focus .candy-card-image {
+  transform: scale(1.2) rotate(-10deg);
+}
+
+.candy-card-image {
+  max-width: 75px;
+  width: 100%;
+  position: absolute;
+  top: -50px;
+  right: 5px;
+  height: 85px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: 0.3s transform ease-in-out;
+}
+
+.candy-card-content {
+  color: #333333;
+}
+.candy-card-content h3 {
+  margin: 10px 0 10px;
+  max-width: 85%;
+  font-family: "Yeseva One", cursive;
+}
+.candy-card-content .candy-card-body {
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
